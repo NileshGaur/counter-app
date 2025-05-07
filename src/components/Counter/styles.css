@@ -1,0 +1,31 @@
+.counter__container {
+  text-align: center;
+  margin-top: 40px;
+  font-family: sans-serif;
+}
+
+.counter__display {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.counter__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.counter__buttons button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: 1px solid #000;
+  background-color: #d2eaff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.counter__buttons button:hover {
+  transform: scale(0.95);
+}
